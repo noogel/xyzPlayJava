@@ -25,6 +25,7 @@
         <module>thread-example</module>
         <module>clojure-example</module>
         <module>algorithm-example</module>
+        <module>drools-example</module>
     </modules>
 
 </project>
