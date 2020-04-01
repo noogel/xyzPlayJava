@@ -1,5 +1,5 @@
-import com.noogel.xyz.config.DroolsAutoConfiguration;
-import com.noogel.xyz.entity.User;
+import noogel.xyz.drools.config.DroolsAutoConfiguration;
+import noogel.xyz.drools.entity.User;
 import org.drools.core.base.RuleNameEndsWithAgendaFilter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
