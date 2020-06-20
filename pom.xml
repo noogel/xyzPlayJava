@@ -29,6 +29,10 @@
         <module>grammar-example</module>
         <module>concurrent-example</module>
         <module>jvm-example</module>
+        <module>orm-example</module>
+        <module>aop-example</module>
+        <module>thrift-server-example</module>
+        <module>thrift-client-example</module>
     </modules>
 
 </project>

@@ -22,6 +22,4 @@ public class AutoCLoseableDemo implements AutoCloseable {
             System.out.println("ex:" + ex.getMessage());
         }
     }
-
-
 }
