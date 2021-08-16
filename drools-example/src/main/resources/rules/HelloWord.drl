@@ -1,5 +1,5 @@
 package rules;
-import nooge.xyz.entity.User;
+import noogel.xyz.drools.entity.User;
 import java.lang.String;
 import java.util.List;
 

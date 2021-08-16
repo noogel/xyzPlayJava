@@ -1,0 +1,16 @@
+package rules;
+import noogel.xyz.drools.entity.PromotionCtx;
+import noogel.xyz.drools.entity.PromotionResult
+import java.util.HashMap;
+
+rule "man_zhe"
+    when
+        $ctx:PromotionCtx(sumAmount() > 100)
+    then
+        PromotionResult result = new PromotionResult();
+        result.setItem(new HashMap<>());
+        $ctx.getPurchaseItemList().forEach(item -> {
+            result.getItem().put(item.getSkuId(), (int) (item.getPrice() * item.getQuantity() * 0.7));
+        });
+        $ctx.setPromotionResult(result);
+end
